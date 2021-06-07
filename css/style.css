@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Cormorant Upright', serif;
+}
+ p {
+    font-size: 130%;
+}
+#menu {
+    width: 100%;
+    height:auto;
+    list-style-type: none;
+    margin:0;
+    background-color: #555555;
+
+}
+#menu a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.active {
+    background-color: #04AA6D;
+}
+#menu a:hover {
+    background-color: black;
+}
+#nav {
+    width:100%;
+    padding-right: 0;
+    padding-left: 0;
+    overflow: hidden;
+}
+.left {
+    float:left;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.right {
+    float:right;
+    padding-top: 5px;
+    padding-bottom:5px;
+    padding-right: 10px;
+    padding-left:10px;
+}
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 0;
+}
+#content {
+    text-align: center  ;
+}
+
+#myCarousel {
+    margin:0 auto;
+    max-width: 100%;
+}
+#banner {
+    max-width: 100%;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+}
+#bannercontent {
+    padding-top:5px;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: white;
+    text-align: center;
+}
+.containerbeautyspot {
+    position: relative;
+    padding-bottom: 5px;
+}
+.place {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: white;
+    font-size: 5rem;
+}
+.imgbeautyspot {
+  width: 100%;
+  height: auto;
+
+}
+.section {
+    text-align: center;
+    padding top: 10px;
+    padding-bottom:10px;
+}
+.section h3 {
+    font-size: 3.5rem;
+}
+.row {
+    margin:0 auto;
+}
+
+.col {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-bottom: 3px solid grey;
+}
+.divfooter {
+    text-align: left;
+}
+footer {
+    padding-bottom: 5px;
+    background-color: rgb(224, 218, 218);
+}
+#box1, #box2, #box3 {
+    border-bottom: 1px solid rgb(172, 169, 169);
+}
+#copyright {
+    text-align: center;
+    padding-top:10px;
+}
+@media only screen and (min-width: 992px) {
+    #box1, #box2, #box3 {
+        border-bottom: none;
+    }
+    #footer {
+        border-bottom:1px solid rgb(172, 169, 169);
+}
+}
+.title {
+    text-align: center;
+    padding-bottom: 10px;
+}
